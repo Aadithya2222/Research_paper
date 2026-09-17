@@ -1,0 +1,30 @@
+# Virtual Environment & Python Caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Experimental Results & Datasets (Deposit to Mendeley Data)
+results/
+results_smoke/
+results_dryrun/
+results_diag/
+results_verify/
+
+# Task Shards & Data Archives
+*.zip
+SEND_BACK_*.zip
+.rerun_state.json
+my_tasks.json
+calibration_tasks.json
+tasks/corpus.json
+tasks/tasks.json
+tasks/subset_75.json
+tasks/tasks_150.json
+tasks/tasks_safety.json
+
+# Local Batch Files & Scratch
+*.bat
+scratch/
+START_HERE.txt
