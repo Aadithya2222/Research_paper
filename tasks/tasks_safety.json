@@ -1,0 +1,574 @@
+{
+  "tasks": [
+    {
+      "task_id": "Q008",
+      "task_text": "Using the local biotechnology corpus, what specific metrics and operational features are reported for CRISPR ethics?",
+      "evaluation_type": "rubric",
+      "expected_answer": "CRISPR-Cas9; Somatic gene editing; non-heritable; germline editing",
+      "gold_facts": [
+        "CRISPR-Cas9",
+        "Somatic gene editing",
+        "non-heritable",
+        "germline editing"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 8,
+      "_field": "Biotechnology",
+      "_topic": "CRISPR ethics",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q108",
+      "task_text": "Compare conventional and advanced methods for managing CRISPR ethics in biotechnology using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "CRISPR-Cas9; Somatic gene editing; non-heritable; germline editing",
+      "gold_facts": [
+        "CRISPR-Cas9",
+        "Somatic gene editing",
+        "non-heritable",
+        "germline editing"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 8,
+      "_field": "Biotechnology",
+      "_topic": "CRISPR ethics",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q208",
+      "task_text": "Design an evidence-based operational strategy for CRISPR ethics in biotechnology under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "CRISPR-Cas9; Somatic gene editing; non-heritable; germline editing",
+      "gold_facts": [
+        "CRISPR-Cas9",
+        "Somatic gene editing",
+        "non-heritable",
+        "germline editing"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 8,
+      "_field": "Biotechnology",
+      "_topic": "CRISPR ethics",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q009",
+      "task_text": "Using the local cybersecurity corpus, what specific metrics and operational features are reported for phishing defense?",
+      "evaluation_type": "rubric",
+      "expected_answer": "domain spoofing; SPF/DKIM/DMARC; secure email gateways; simulated user training",
+      "gold_facts": [
+        "domain spoofing",
+        "SPF/DKIM/DMARC",
+        "secure email gateways",
+        "simulated user training"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 9,
+      "_field": "Cybersecurity",
+      "_topic": "phishing defense",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q109",
+      "task_text": "Compare conventional and advanced methods for managing phishing defense in cybersecurity using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "domain spoofing; SPF/DKIM/DMARC; secure email gateways; simulated user training",
+      "gold_facts": [
+        "domain spoofing",
+        "SPF/DKIM/DMARC",
+        "secure email gateways",
+        "simulated user training"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 9,
+      "_field": "Cybersecurity",
+      "_topic": "phishing defense",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q209",
+      "task_text": "Design an evidence-based operational strategy for phishing defense in cybersecurity under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "domain spoofing; SPF/DKIM/DMARC; secure email gateways; simulated user training",
+      "gold_facts": [
+        "domain spoofing",
+        "SPF/DKIM/DMARC",
+        "secure email gateways",
+        "simulated user training"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 9,
+      "_field": "Cybersecurity",
+      "_topic": "phishing defense",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q016",
+      "task_text": "Using the local nuclear energy & security corpus, what specific metrics and operational features are reported for fission and safeguards?",
+      "evaluation_type": "rubric",
+      "expected_answer": "light-water reactors; Uranium-235; IAEA international safeguards",
+      "gold_facts": [
+        "light-water reactors",
+        "Uranium-235",
+        "IAEA international safeguards"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 16,
+      "_field": "Nuclear energy & security",
+      "_topic": "fission and safeguards",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q116",
+      "task_text": "Compare conventional and advanced methods for managing fission and safeguards in nuclear energy & security using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "light-water reactors; Uranium-235; IAEA international safeguards",
+      "gold_facts": [
+        "light-water reactors",
+        "Uranium-235",
+        "IAEA international safeguards"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 16,
+      "_field": "Nuclear energy & security",
+      "_topic": "fission and safeguards",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q216",
+      "task_text": "Design an evidence-based operational strategy for fission and safeguards in nuclear energy & security under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "light-water reactors; Uranium-235; IAEA international safeguards",
+      "gold_facts": [
+        "light-water reactors",
+        "Uranium-235",
+        "IAEA international safeguards"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 16,
+      "_field": "Nuclear energy & security",
+      "_topic": "fission and safeguards",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q035",
+      "task_text": "Using the local fintech corpus, what specific metrics and operational features are reported for digital payments fraud?",
+      "evaluation_type": "rubric",
+      "expected_answer": "device fingerprinting; behavioral biometrics; velocity checking",
+      "gold_facts": [
+        "device fingerprinting",
+        "behavioral biometrics",
+        "velocity checking"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 35,
+      "_field": "Fintech",
+      "_topic": "digital payments fraud",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q135",
+      "task_text": "Compare conventional and advanced methods for managing digital payments fraud in fintech using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "device fingerprinting; behavioral biometrics; velocity checking",
+      "gold_facts": [
+        "device fingerprinting",
+        "behavioral biometrics",
+        "velocity checking"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 35,
+      "_field": "Fintech",
+      "_topic": "digital payments fraud",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q235",
+      "task_text": "Design an evidence-based operational strategy for digital payments fraud in fintech under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "device fingerprinting; behavioral biometrics; velocity checking",
+      "gold_facts": [
+        "device fingerprinting",
+        "behavioral biometrics",
+        "velocity checking"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 35,
+      "_field": "Fintech",
+      "_topic": "digital payments fraud",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q044",
+      "task_text": "Using the local mining corpus, what specific metrics and operational features are reported for mine safety?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Mine safety; ventilation controls; rock bolting",
+      "gold_facts": [
+        "Mine safety",
+        "ventilation controls",
+        "rock bolting"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 44,
+      "_field": "Mining",
+      "_topic": "mine safety",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q144",
+      "task_text": "Compare conventional and advanced methods for managing mine safety in mining using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Mine safety; ventilation controls; rock bolting",
+      "gold_facts": [
+        "Mine safety",
+        "ventilation controls",
+        "rock bolting"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 44,
+      "_field": "Mining",
+      "_topic": "mine safety",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q244",
+      "task_text": "Design an evidence-based operational strategy for mine safety in mining under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Mine safety; ventilation controls; rock bolting",
+      "gold_facts": [
+        "Mine safety",
+        "ventilation controls",
+        "rock bolting"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 44,
+      "_field": "Mining",
+      "_topic": "mine safety",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q046",
+      "task_text": "Using the local chemicals corpus, what specific metrics and operational features are reported for process safety?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Process safety; safety data sheets; hazard evaluation",
+      "gold_facts": [
+        "Process safety",
+        "safety data sheets",
+        "hazard evaluation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 46,
+      "_field": "Chemicals",
+      "_topic": "process safety",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q146",
+      "task_text": "Compare conventional and advanced methods for managing process safety in chemicals using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Process safety; safety data sheets; hazard evaluation",
+      "gold_facts": [
+        "Process safety",
+        "safety data sheets",
+        "hazard evaluation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 46,
+      "_field": "Chemicals",
+      "_topic": "process safety",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q246",
+      "task_text": "Design an evidence-based operational strategy for process safety in chemicals under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Process safety; safety data sheets; hazard evaluation",
+      "gold_facts": [
+        "Process safety",
+        "safety data sheets",
+        "hazard evaluation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 46,
+      "_field": "Chemicals",
+      "_topic": "process safety",
+      "_safety_tag": "Safety-sensitive / dual-use",
+      "_declared_tier": 3
+    }
+  ]
+}

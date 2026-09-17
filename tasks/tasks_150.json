@@ -1,0 +1,4170 @@
+{
+  "tasks": [
+    {
+      "task_id": "Q001",
+      "task_text": "Using the local agriculture corpus, what specific metrics and operational features are reported for precision irrigation?",
+      "evaluation_type": "rubric",
+      "expected_answer": "soil-moisture sensor; 15cm and 45cm; 25 to 40 percent; drip emitters",
+      "gold_facts": [
+        "soil-moisture sensor",
+        "15cm and 45cm",
+        "25 to 40 percent",
+        "drip emitters"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 1,
+      "_field": "Agriculture",
+      "_topic": "precision irrigation",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q101",
+      "task_text": "Compare conventional and advanced methods for managing precision irrigation in agriculture using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "soil-moisture sensor; 15cm and 45cm; 25 to 40 percent; drip emitters",
+      "gold_facts": [
+        "soil-moisture sensor",
+        "15cm and 45cm",
+        "25 to 40 percent",
+        "drip emitters"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 1,
+      "_field": "Agriculture",
+      "_topic": "precision irrigation",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q201",
+      "task_text": "Design an evidence-based operational strategy for precision irrigation in agriculture under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "soil-moisture sensor; 15cm and 45cm; 25 to 40 percent; drip emitters",
+      "gold_facts": [
+        "soil-moisture sensor",
+        "15cm and 45cm",
+        "25 to 40 percent",
+        "drip emitters"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 1,
+      "_field": "Agriculture",
+      "_topic": "precision irrigation",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q002",
+      "task_text": "Using the local automotive corpus, what specific metrics and operational features are reported for electric-vehicle batteries?",
+      "evaluation_type": "rubric",
+      "expected_answer": "kinetic energy; regenerative braking; direct current; 270°C; 250 Wh/kg",
+      "gold_facts": [
+        "kinetic energy",
+        "regenerative braking",
+        "direct current",
+        "270°C",
+        "250 Wh/kg"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 2,
+      "_field": "Automotive",
+      "_topic": "electric-vehicle batteries",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q102",
+      "task_text": "Compare conventional and advanced methods for managing electric-vehicle batteries in automotive using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "kinetic energy; regenerative braking; direct current; 270°C; 250 Wh/kg",
+      "gold_facts": [
+        "kinetic energy",
+        "regenerative braking",
+        "direct current",
+        "270°C",
+        "250 Wh/kg"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 2,
+      "_field": "Automotive",
+      "_topic": "electric-vehicle batteries",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q202",
+      "task_text": "Design an evidence-based operational strategy for electric-vehicle batteries in automotive under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "kinetic energy; regenerative braking; direct current; 270°C; 250 Wh/kg",
+      "gold_facts": [
+        "kinetic energy",
+        "regenerative braking",
+        "direct current",
+        "270°C",
+        "250 Wh/kg"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 2,
+      "_field": "Automotive",
+      "_topic": "electric-vehicle batteries",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q003",
+      "task_text": "Using the local aviation corpus, what specific metrics and operational features are reported for aircraft turnaround?",
+      "evaluation_type": "rubric",
+      "expected_answer": "chocks on; chocks off; 35 percent; 8 to 12 minutes; 18 percent",
+      "gold_facts": [
+        "chocks on",
+        "chocks off",
+        "35 percent",
+        "8 to 12 minutes",
+        "18 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 3,
+      "_field": "Aviation",
+      "_topic": "aircraft turnaround",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q103",
+      "task_text": "Compare conventional and advanced methods for managing aircraft turnaround in aviation using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "chocks on; chocks off; 35 percent; 8 to 12 minutes; 18 percent",
+      "gold_facts": [
+        "chocks on",
+        "chocks off",
+        "35 percent",
+        "8 to 12 minutes",
+        "18 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 3,
+      "_field": "Aviation",
+      "_topic": "aircraft turnaround",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q203",
+      "task_text": "Design an evidence-based operational strategy for aircraft turnaround in aviation under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "chocks on; chocks off; 35 percent; 8 to 12 minutes; 18 percent",
+      "gold_facts": [
+        "chocks on",
+        "chocks off",
+        "35 percent",
+        "8 to 12 minutes",
+        "18 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 3,
+      "_field": "Aviation",
+      "_topic": "aircraft turnaround",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q004",
+      "task_text": "Using the local banking corpus, what specific metrics and operational features are reported for credit risk?",
+      "evaluation_type": "rubric",
+      "expected_answer": "300 to 850; 35%; 30%; SHAP analysis",
+      "gold_facts": [
+        "300 to 850",
+        "35%",
+        "30%",
+        "SHAP analysis"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 4,
+      "_field": "Banking",
+      "_topic": "credit risk",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q104",
+      "task_text": "Compare conventional and advanced methods for managing credit risk in banking using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "300 to 850; 35%; 30%; SHAP analysis",
+      "gold_facts": [
+        "300 to 850",
+        "35%",
+        "30%",
+        "SHAP analysis"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 4,
+      "_field": "Banking",
+      "_topic": "credit risk",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q204",
+      "task_text": "Design an evidence-based operational strategy for credit risk in banking under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "300 to 850; 35%; 30%; SHAP analysis",
+      "gold_facts": [
+        "300 to 850",
+        "35%",
+        "30%",
+        "SHAP analysis"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 4,
+      "_field": "Banking",
+      "_topic": "credit risk",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q005",
+      "task_text": "Using the local insurance corpus, what specific metrics and operational features are reported for claims fraud?",
+      "evaluation_type": "rubric",
+      "expected_answer": "intentional deception; 10 percent; 40%; 25 percent",
+      "gold_facts": [
+        "intentional deception",
+        "10 percent",
+        "40%",
+        "25 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 5,
+      "_field": "Insurance",
+      "_topic": "claims fraud",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q105",
+      "task_text": "Compare conventional and advanced methods for managing claims fraud in insurance using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "intentional deception; 10 percent; 40%; 25 percent",
+      "gold_facts": [
+        "intentional deception",
+        "10 percent",
+        "40%",
+        "25 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 5,
+      "_field": "Insurance",
+      "_topic": "claims fraud",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q205",
+      "task_text": "Design an evidence-based operational strategy for claims fraud in insurance under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "intentional deception; 10 percent; 40%; 25 percent",
+      "gold_facts": [
+        "intentional deception",
+        "10 percent",
+        "40%",
+        "25 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 5,
+      "_field": "Insurance",
+      "_topic": "claims fraud",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q006",
+      "task_text": "Using the local healthcare operations corpus, what specific metrics and operational features are reported for hospital bed management?",
+      "evaluation_type": "rubric",
+      "expected_answer": "inpatient beds; 85 percent; 82 percent; 45 minutes",
+      "gold_facts": [
+        "inpatient beds",
+        "85 percent",
+        "82 percent",
+        "45 minutes"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 6,
+      "_field": "Healthcare operations",
+      "_topic": "hospital bed management",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q106",
+      "task_text": "Compare conventional and advanced methods for managing hospital bed management in healthcare operations using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "inpatient beds; 85 percent; 82 percent; 45 minutes",
+      "gold_facts": [
+        "inpatient beds",
+        "85 percent",
+        "82 percent",
+        "45 minutes"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 6,
+      "_field": "Healthcare operations",
+      "_topic": "hospital bed management",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q206",
+      "task_text": "Design an evidence-based operational strategy for hospital bed management in healthcare operations under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "inpatient beds; 85 percent; 82 percent; 45 minutes",
+      "gold_facts": [
+        "inpatient beds",
+        "85 percent",
+        "82 percent",
+        "45 minutes"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 6,
+      "_field": "Healthcare operations",
+      "_topic": "hospital bed management",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q007",
+      "task_text": "Using the local pharmaceuticals corpus, what specific metrics and operational features are reported for clinical trials?",
+      "evaluation_type": "rubric",
+      "expected_answer": "randomized controlled trials; 100-300 patients; 1,000-3,000 patients",
+      "gold_facts": [
+        "randomized controlled trials",
+        "100-300 patients",
+        "1,000-3,000 patients"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 7,
+      "_field": "Pharmaceuticals",
+      "_topic": "clinical trials",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q107",
+      "task_text": "Compare conventional and advanced methods for managing clinical trials in pharmaceuticals using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "randomized controlled trials; 100-300 patients; 1,000-3,000 patients",
+      "gold_facts": [
+        "randomized controlled trials",
+        "100-300 patients",
+        "1,000-3,000 patients"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 7,
+      "_field": "Pharmaceuticals",
+      "_topic": "clinical trials",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q207",
+      "task_text": "Design an evidence-based operational strategy for clinical trials in pharmaceuticals under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "randomized controlled trials; 100-300 patients; 1,000-3,000 patients",
+      "gold_facts": [
+        "randomized controlled trials",
+        "100-300 patients",
+        "1,000-3,000 patients"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 7,
+      "_field": "Pharmaceuticals",
+      "_topic": "clinical trials",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q010",
+      "task_text": "Using the local cloud computing corpus, what specific metrics and operational features are reported for autoscaling?",
+      "evaluation_type": "rubric",
+      "expected_answer": "autoscaling; utilization; horizontal scaling; vertical scaling",
+      "gold_facts": [
+        "autoscaling",
+        "utilization",
+        "horizontal scaling",
+        "vertical scaling"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 10,
+      "_field": "Cloud computing",
+      "_topic": "autoscaling",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q110",
+      "task_text": "Compare conventional and advanced methods for managing autoscaling in cloud computing using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "autoscaling; utilization; horizontal scaling; vertical scaling",
+      "gold_facts": [
+        "autoscaling",
+        "utilization",
+        "horizontal scaling",
+        "vertical scaling"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 10,
+      "_field": "Cloud computing",
+      "_topic": "autoscaling",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q210",
+      "task_text": "Design an evidence-based operational strategy for autoscaling in cloud computing under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "autoscaling; utilization; horizontal scaling; vertical scaling",
+      "gold_facts": [
+        "autoscaling",
+        "utilization",
+        "horizontal scaling",
+        "vertical scaling"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 10,
+      "_field": "Cloud computing",
+      "_topic": "autoscaling",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q011",
+      "task_text": "Using the local semiconductors corpus, what specific metrics and operational features are reported for chip fabrication yield?",
+      "evaluation_type": "rubric",
+      "expected_answer": "silicon wafer; defect density; total die area",
+      "gold_facts": [
+        "silicon wafer",
+        "defect density",
+        "total die area"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 11,
+      "_field": "Semiconductors",
+      "_topic": "chip fabrication yield",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q111",
+      "task_text": "Compare conventional and advanced methods for managing chip fabrication yield in semiconductors using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "silicon wafer; defect density; total die area",
+      "gold_facts": [
+        "silicon wafer",
+        "defect density",
+        "total die area"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 11,
+      "_field": "Semiconductors",
+      "_topic": "chip fabrication yield",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q211",
+      "task_text": "Design an evidence-based operational strategy for chip fabrication yield in semiconductors under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "silicon wafer; defect density; total die area",
+      "gold_facts": [
+        "silicon wafer",
+        "defect density",
+        "total die area"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 11,
+      "_field": "Semiconductors",
+      "_topic": "chip fabrication yield",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q012",
+      "task_text": "Using the local telecommunications corpus, what specific metrics and operational features are reported for 5G network slicing?",
+      "evaluation_type": "rubric",
+      "expected_answer": "5G network slicing; eMBB; URLLC; mMTC",
+      "gold_facts": [
+        "5G network slicing",
+        "eMBB",
+        "URLLC",
+        "mMTC"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 12,
+      "_field": "Telecommunications",
+      "_topic": "5G network slicing",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q112",
+      "task_text": "Compare conventional and advanced methods for managing 5G network slicing in telecommunications using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "5G network slicing; eMBB; URLLC; mMTC",
+      "gold_facts": [
+        "5G network slicing",
+        "eMBB",
+        "URLLC",
+        "mMTC"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 12,
+      "_field": "Telecommunications",
+      "_topic": "5G network slicing",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q212",
+      "task_text": "Design an evidence-based operational strategy for 5G network slicing in telecommunications under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "5G network slicing; eMBB; URLLC; mMTC",
+      "gold_facts": [
+        "5G network slicing",
+        "eMBB",
+        "URLLC",
+        "mMTC"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 12,
+      "_field": "Telecommunications",
+      "_topic": "5G network slicing",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q013",
+      "task_text": "Using the local renewable energy corpus, what specific metrics and operational features are reported for solar PV?",
+      "evaluation_type": "rubric",
+      "expected_answer": "20 to 23 percent; $35/MWh; rooftop systems",
+      "gold_facts": [
+        "20 to 23 percent",
+        "$35/MWh",
+        "rooftop systems"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 13,
+      "_field": "Renewable energy",
+      "_topic": "solar PV",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q113",
+      "task_text": "Compare conventional and advanced methods for managing solar PV in renewable energy using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "20 to 23 percent; $35/MWh; rooftop systems",
+      "gold_facts": [
+        "20 to 23 percent",
+        "$35/MWh",
+        "rooftop systems"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 13,
+      "_field": "Renewable energy",
+      "_topic": "solar PV",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q213",
+      "task_text": "Design an evidence-based operational strategy for solar PV in renewable energy under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "20 to 23 percent; $35/MWh; rooftop systems",
+      "gold_facts": [
+        "20 to 23 percent",
+        "$35/MWh",
+        "rooftop systems"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 13,
+      "_field": "Renewable energy",
+      "_topic": "solar PV",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q014",
+      "task_text": "Using the local wind energy corpus, what specific metrics and operational features are reported for offshore wind?",
+      "evaluation_type": "rubric",
+      "expected_answer": "30 to 40 percent; 45 to 55 percent; capital expenditure",
+      "gold_facts": [
+        "30 to 40 percent",
+        "45 to 55 percent",
+        "capital expenditure"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 14,
+      "_field": "Wind energy",
+      "_topic": "offshore wind",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q114",
+      "task_text": "Compare conventional and advanced methods for managing offshore wind in wind energy using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "30 to 40 percent; 45 to 55 percent; capital expenditure",
+      "gold_facts": [
+        "30 to 40 percent",
+        "45 to 55 percent",
+        "capital expenditure"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 14,
+      "_field": "Wind energy",
+      "_topic": "offshore wind",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q214",
+      "task_text": "Design an evidence-based operational strategy for offshore wind in wind energy under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "30 to 40 percent; 45 to 55 percent; capital expenditure",
+      "gold_facts": [
+        "30 to 40 percent",
+        "45 to 55 percent",
+        "capital expenditure"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 14,
+      "_field": "Wind energy",
+      "_topic": "offshore wind",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q015",
+      "task_text": "Using the local oil and gas corpus, what specific metrics and operational features are reported for methane emissions?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Methane; global warming potential; optical gas imaging",
+      "gold_facts": [
+        "Methane",
+        "global warming potential",
+        "optical gas imaging"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 15,
+      "_field": "Oil and gas",
+      "_topic": "methane emissions",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q115",
+      "task_text": "Compare conventional and advanced methods for managing methane emissions in oil and gas using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Methane; global warming potential; optical gas imaging",
+      "gold_facts": [
+        "Methane",
+        "global warming potential",
+        "optical gas imaging"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 15,
+      "_field": "Oil and gas",
+      "_topic": "methane emissions",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q215",
+      "task_text": "Design an evidence-based operational strategy for methane emissions in oil and gas under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Methane; global warming potential; optical gas imaging",
+      "gold_facts": [
+        "Methane",
+        "global warming potential",
+        "optical gas imaging"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 15,
+      "_field": "Oil and gas",
+      "_topic": "methane emissions",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q017",
+      "task_text": "Using the local construction corpus, what specific metrics and operational features are reported for building information modeling?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Building Information Modeling; 3D clash detection; 20 percent",
+      "gold_facts": [
+        "Building Information Modeling",
+        "3D clash detection",
+        "20 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 17,
+      "_field": "Construction",
+      "_topic": "building information modeling",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q117",
+      "task_text": "Compare conventional and advanced methods for managing building information modeling in construction using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Building Information Modeling; 3D clash detection; 20 percent",
+      "gold_facts": [
+        "Building Information Modeling",
+        "3D clash detection",
+        "20 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 17,
+      "_field": "Construction",
+      "_topic": "building information modeling",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q217",
+      "task_text": "Design an evidence-based operational strategy for building information modeling in construction under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Building Information Modeling; 3D clash detection; 20 percent",
+      "gold_facts": [
+        "Building Information Modeling",
+        "3D clash detection",
+        "20 percent"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 17,
+      "_field": "Construction",
+      "_topic": "building information modeling",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q018",
+      "task_text": "Using the local architecture corpus, what specific metrics and operational features are reported for passive building design?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Passive building design; daylighting; thermal insulation",
+      "gold_facts": [
+        "Passive building design",
+        "daylighting",
+        "thermal insulation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 18,
+      "_field": "Architecture",
+      "_topic": "passive building design",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q118",
+      "task_text": "Compare conventional and advanced methods for managing passive building design in architecture using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Passive building design; daylighting; thermal insulation",
+      "gold_facts": [
+        "Passive building design",
+        "daylighting",
+        "thermal insulation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 18,
+      "_field": "Architecture",
+      "_topic": "passive building design",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q218",
+      "task_text": "Design an evidence-based operational strategy for passive building design in architecture under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Passive building design; daylighting; thermal insulation",
+      "gold_facts": [
+        "Passive building design",
+        "daylighting",
+        "thermal insulation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 18,
+      "_field": "Architecture",
+      "_topic": "passive building design",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q019",
+      "task_text": "Using the local real estate corpus, what specific metrics and operational features are reported for property valuation?",
+      "evaluation_type": "rubric",
+      "expected_answer": "comparable-sales approach; income capitalization approach; cost approach",
+      "gold_facts": [
+        "comparable-sales approach",
+        "income capitalization approach",
+        "cost approach"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 19,
+      "_field": "Real estate",
+      "_topic": "property valuation",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q119",
+      "task_text": "Compare conventional and advanced methods for managing property valuation in real estate using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "comparable-sales approach; income capitalization approach; cost approach",
+      "gold_facts": [
+        "comparable-sales approach",
+        "income capitalization approach",
+        "cost approach"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 19,
+      "_field": "Real estate",
+      "_topic": "property valuation",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q219",
+      "task_text": "Design an evidence-based operational strategy for property valuation in real estate under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "comparable-sales approach; income capitalization approach; cost approach",
+      "gold_facts": [
+        "comparable-sales approach",
+        "income capitalization approach",
+        "cost approach"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 19,
+      "_field": "Real estate",
+      "_topic": "property valuation",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q020",
+      "task_text": "Using the local logistics corpus, what specific metrics and operational features are reported for last-mile delivery?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Last-mile delivery; 53 percent; micro-fulfillment centers",
+      "gold_facts": [
+        "Last-mile delivery",
+        "53 percent",
+        "micro-fulfillment centers"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 20,
+      "_field": "Logistics",
+      "_topic": "last-mile delivery",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q120",
+      "task_text": "Compare conventional and advanced methods for managing last-mile delivery in logistics using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Last-mile delivery; 53 percent; micro-fulfillment centers",
+      "gold_facts": [
+        "Last-mile delivery",
+        "53 percent",
+        "micro-fulfillment centers"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 20,
+      "_field": "Logistics",
+      "_topic": "last-mile delivery",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q220",
+      "task_text": "Design an evidence-based operational strategy for last-mile delivery in logistics under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Last-mile delivery; 53 percent; micro-fulfillment centers",
+      "gold_facts": [
+        "Last-mile delivery",
+        "53 percent",
+        "micro-fulfillment centers"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 20,
+      "_field": "Logistics",
+      "_topic": "last-mile delivery",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q021",
+      "task_text": "Using the local supply chain corpus, what specific metrics and operational features are reported for inventory resilience?",
+      "evaluation_type": "rubric",
+      "expected_answer": "just-in-time; safety stock; lead-time variability",
+      "gold_facts": [
+        "just-in-time",
+        "safety stock",
+        "lead-time variability"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 21,
+      "_field": "Supply chain",
+      "_topic": "inventory resilience",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q121",
+      "task_text": "Compare conventional and advanced methods for managing inventory resilience in supply chain using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "just-in-time; safety stock; lead-time variability",
+      "gold_facts": [
+        "just-in-time",
+        "safety stock",
+        "lead-time variability"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 21,
+      "_field": "Supply chain",
+      "_topic": "inventory resilience",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q221",
+      "task_text": "Design an evidence-based operational strategy for inventory resilience in supply chain under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "just-in-time; safety stock; lead-time variability",
+      "gold_facts": [
+        "just-in-time",
+        "safety stock",
+        "lead-time variability"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 21,
+      "_field": "Supply chain",
+      "_topic": "inventory resilience",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q022",
+      "task_text": "Using the local retail corpus, what specific metrics and operational features are reported for dynamic pricing?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Dynamic pricing; demand elasticity; clearance velocity",
+      "gold_facts": [
+        "Dynamic pricing",
+        "demand elasticity",
+        "clearance velocity"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 22,
+      "_field": "Retail",
+      "_topic": "dynamic pricing",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q122",
+      "task_text": "Compare conventional and advanced methods for managing dynamic pricing in retail using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Dynamic pricing; demand elasticity; clearance velocity",
+      "gold_facts": [
+        "Dynamic pricing",
+        "demand elasticity",
+        "clearance velocity"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 22,
+      "_field": "Retail",
+      "_topic": "dynamic pricing",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q222",
+      "task_text": "Design an evidence-based operational strategy for dynamic pricing in retail under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Dynamic pricing; demand elasticity; clearance velocity",
+      "gold_facts": [
+        "Dynamic pricing",
+        "demand elasticity",
+        "clearance velocity"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 22,
+      "_field": "Retail",
+      "_topic": "dynamic pricing",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q023",
+      "task_text": "Using the local e-commerce corpus, what specific metrics and operational features are reported for recommendation systems?",
+      "evaluation_type": "rubric",
+      "expected_answer": "collaborative filtering; content-based filtering; catalog discovery",
+      "gold_facts": [
+        "collaborative filtering",
+        "content-based filtering",
+        "catalog discovery"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 23,
+      "_field": "E-commerce",
+      "_topic": "recommendation systems",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q123",
+      "task_text": "Compare conventional and advanced methods for managing recommendation systems in e-commerce using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "collaborative filtering; content-based filtering; catalog discovery",
+      "gold_facts": [
+        "collaborative filtering",
+        "content-based filtering",
+        "catalog discovery"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 23,
+      "_field": "E-commerce",
+      "_topic": "recommendation systems",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q223",
+      "task_text": "Design an evidence-based operational strategy for recommendation systems in e-commerce under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "collaborative filtering; content-based filtering; catalog discovery",
+      "gold_facts": [
+        "collaborative filtering",
+        "content-based filtering",
+        "catalog discovery"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 23,
+      "_field": "E-commerce",
+      "_topic": "recommendation systems",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q024",
+      "task_text": "Using the local manufacturing corpus, what specific metrics and operational features are reported for predictive maintenance?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Predictive maintenance; vibration; thermal IoT sensors",
+      "gold_facts": [
+        "Predictive maintenance",
+        "vibration",
+        "thermal IoT sensors"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 24,
+      "_field": "Manufacturing",
+      "_topic": "predictive maintenance",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q124",
+      "task_text": "Compare conventional and advanced methods for managing predictive maintenance in manufacturing using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Predictive maintenance; vibration; thermal IoT sensors",
+      "gold_facts": [
+        "Predictive maintenance",
+        "vibration",
+        "thermal IoT sensors"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 24,
+      "_field": "Manufacturing",
+      "_topic": "predictive maintenance",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q224",
+      "task_text": "Design an evidence-based operational strategy for predictive maintenance in manufacturing under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Predictive maintenance; vibration; thermal IoT sensors",
+      "gold_facts": [
+        "Predictive maintenance",
+        "vibration",
+        "thermal IoT sensors"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 24,
+      "_field": "Manufacturing",
+      "_topic": "predictive maintenance",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q025",
+      "task_text": "Using the local robotics corpus, what specific metrics and operational features are reported for warehouse robots?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Autonomous mobile robots; fleet dispatching; obstacle avoidance",
+      "gold_facts": [
+        "Autonomous mobile robots",
+        "fleet dispatching",
+        "obstacle avoidance"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 25,
+      "_field": "Robotics",
+      "_topic": "warehouse robots",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q125",
+      "task_text": "Compare conventional and advanced methods for managing warehouse robots in robotics using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Autonomous mobile robots; fleet dispatching; obstacle avoidance",
+      "gold_facts": [
+        "Autonomous mobile robots",
+        "fleet dispatching",
+        "obstacle avoidance"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 25,
+      "_field": "Robotics",
+      "_topic": "warehouse robots",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q225",
+      "task_text": "Design an evidence-based operational strategy for warehouse robots in robotics under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Autonomous mobile robots; fleet dispatching; obstacle avoidance",
+      "gold_facts": [
+        "Autonomous mobile robots",
+        "fleet dispatching",
+        "obstacle avoidance"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 25,
+      "_field": "Robotics",
+      "_topic": "warehouse robots",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q026",
+      "task_text": "Using the local food processing corpus, what specific metrics and operational features are reported for HACCP?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Hazard Analysis Critical Control Point; HACCP; critical control points",
+      "gold_facts": [
+        "Hazard Analysis Critical Control Point",
+        "HACCP",
+        "critical control points"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 26,
+      "_field": "Food processing",
+      "_topic": "HACCP",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q126",
+      "task_text": "Compare conventional and advanced methods for managing HACCP in food processing using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Hazard Analysis Critical Control Point; HACCP; critical control points",
+      "gold_facts": [
+        "Hazard Analysis Critical Control Point",
+        "HACCP",
+        "critical control points"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 26,
+      "_field": "Food processing",
+      "_topic": "HACCP",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q226",
+      "task_text": "Design an evidence-based operational strategy for HACCP in food processing under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Hazard Analysis Critical Control Point; HACCP; critical control points",
+      "gold_facts": [
+        "Hazard Analysis Critical Control Point",
+        "HACCP",
+        "critical control points"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 26,
+      "_field": "Food processing",
+      "_topic": "HACCP",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q027",
+      "task_text": "Using the local hospitality corpus, what specific metrics and operational features are reported for hotel revenue management?",
+      "evaluation_type": "rubric",
+      "expected_answer": "occupancy rate; Average Daily Rate; Revenue Per Available Room",
+      "gold_facts": [
+        "occupancy rate",
+        "Average Daily Rate",
+        "Revenue Per Available Room"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 27,
+      "_field": "Hospitality",
+      "_topic": "hotel revenue management",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q127",
+      "task_text": "Compare conventional and advanced methods for managing hotel revenue management in hospitality using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "occupancy rate; Average Daily Rate; Revenue Per Available Room",
+      "gold_facts": [
+        "occupancy rate",
+        "Average Daily Rate",
+        "Revenue Per Available Room"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 27,
+      "_field": "Hospitality",
+      "_topic": "hotel revenue management",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q227",
+      "task_text": "Design an evidence-based operational strategy for hotel revenue management in hospitality under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "occupancy rate; Average Daily Rate; Revenue Per Available Room",
+      "gold_facts": [
+        "occupancy rate",
+        "Average Daily Rate",
+        "Revenue Per Available Room"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 27,
+      "_field": "Hospitality",
+      "_topic": "hotel revenue management",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q028",
+      "task_text": "Using the local tourism corpus, what specific metrics and operational features are reported for overtourism management?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Overtourism management; timed entry permits; tourist taxes",
+      "gold_facts": [
+        "Overtourism management",
+        "timed entry permits",
+        "tourist taxes"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 28,
+      "_field": "Tourism",
+      "_topic": "overtourism management",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q128",
+      "task_text": "Compare conventional and advanced methods for managing overtourism management in tourism using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Overtourism management; timed entry permits; tourist taxes",
+      "gold_facts": [
+        "Overtourism management",
+        "timed entry permits",
+        "tourist taxes"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 28,
+      "_field": "Tourism",
+      "_topic": "overtourism management",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q228",
+      "task_text": "Design an evidence-based operational strategy for overtourism management in tourism under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Overtourism management; timed entry permits; tourist taxes",
+      "gold_facts": [
+        "Overtourism management",
+        "timed entry permits",
+        "tourist taxes"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 28,
+      "_field": "Tourism",
+      "_topic": "overtourism management",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q029",
+      "task_text": "Using the local education corpus, what specific metrics and operational features are reported for adaptive learning?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Adaptive learning; instruction pacing; item response theory",
+      "gold_facts": [
+        "Adaptive learning",
+        "instruction pacing",
+        "item response theory"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 29,
+      "_field": "Education",
+      "_topic": "adaptive learning",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q129",
+      "task_text": "Compare conventional and advanced methods for managing adaptive learning in education using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Adaptive learning; instruction pacing; item response theory",
+      "gold_facts": [
+        "Adaptive learning",
+        "instruction pacing",
+        "item response theory"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 29,
+      "_field": "Education",
+      "_topic": "adaptive learning",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q229",
+      "task_text": "Design an evidence-based operational strategy for adaptive learning in education under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Adaptive learning; instruction pacing; item response theory",
+      "gold_facts": [
+        "Adaptive learning",
+        "instruction pacing",
+        "item response theory"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 29,
+      "_field": "Education",
+      "_topic": "adaptive learning",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q030",
+      "task_text": "Using the local higher education corpus, what specific metrics and operational features are reported for student retention?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Student retention; early academic disengagement; tutoring interventions",
+      "gold_facts": [
+        "Student retention",
+        "early academic disengagement",
+        "tutoring interventions"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 30,
+      "_field": "Higher education",
+      "_topic": "student retention",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q130",
+      "task_text": "Compare conventional and advanced methods for managing student retention in higher education using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Student retention; early academic disengagement; tutoring interventions",
+      "gold_facts": [
+        "Student retention",
+        "early academic disengagement",
+        "tutoring interventions"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 30,
+      "_field": "Higher education",
+      "_topic": "student retention",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q230",
+      "task_text": "Design an evidence-based operational strategy for student retention in higher education under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Student retention; early academic disengagement; tutoring interventions",
+      "gold_facts": [
+        "Student retention",
+        "early academic disengagement",
+        "tutoring interventions"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 30,
+      "_field": "Higher education",
+      "_topic": "student retention",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q031",
+      "task_text": "Using the local legal services corpus, what specific metrics and operational features are reported for contract review AI?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Contract review AI; non-disclosure agreement; turnaround time",
+      "gold_facts": [
+        "Contract review AI",
+        "non-disclosure agreement",
+        "turnaround time"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 31,
+      "_field": "Legal services",
+      "_topic": "contract review AI",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q131",
+      "task_text": "Compare conventional and advanced methods for managing contract review AI in legal services using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Contract review AI; non-disclosure agreement; turnaround time",
+      "gold_facts": [
+        "Contract review AI",
+        "non-disclosure agreement",
+        "turnaround time"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 31,
+      "_field": "Legal services",
+      "_topic": "contract review AI",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q231",
+      "task_text": "Design an evidence-based operational strategy for contract review AI in legal services under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Contract review AI; non-disclosure agreement; turnaround time",
+      "gold_facts": [
+        "Contract review AI",
+        "non-disclosure agreement",
+        "turnaround time"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 31,
+      "_field": "Legal services",
+      "_topic": "contract review AI",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q032",
+      "task_text": "Using the local public administration corpus, what specific metrics and operational features are reported for digital identity?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Digital identity; biometric authentication; zero-knowledge proofs",
+      "gold_facts": [
+        "Digital identity",
+        "biometric authentication",
+        "zero-knowledge proofs"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 32,
+      "_field": "Public administration",
+      "_topic": "digital identity",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q132",
+      "task_text": "Compare conventional and advanced methods for managing digital identity in public administration using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Digital identity; biometric authentication; zero-knowledge proofs",
+      "gold_facts": [
+        "Digital identity",
+        "biometric authentication",
+        "zero-knowledge proofs"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 32,
+      "_field": "Public administration",
+      "_topic": "digital identity",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q232",
+      "task_text": "Design an evidence-based operational strategy for digital identity in public administration under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Digital identity; biometric authentication; zero-knowledge proofs",
+      "gold_facts": [
+        "Digital identity",
+        "biometric authentication",
+        "zero-knowledge proofs"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 32,
+      "_field": "Public administration",
+      "_topic": "digital identity",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q033",
+      "task_text": "Using the local accounting corpus, what specific metrics and operational features are reported for revenue recognition?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Revenue recognition; ASC 606; performance obligations",
+      "gold_facts": [
+        "Revenue recognition",
+        "ASC 606",
+        "performance obligations"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 33,
+      "_field": "Accounting",
+      "_topic": "revenue recognition",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q133",
+      "task_text": "Compare conventional and advanced methods for managing revenue recognition in accounting using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Revenue recognition; ASC 606; performance obligations",
+      "gold_facts": [
+        "Revenue recognition",
+        "ASC 606",
+        "performance obligations"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 33,
+      "_field": "Accounting",
+      "_topic": "revenue recognition",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q233",
+      "task_text": "Design an evidence-based operational strategy for revenue recognition in accounting under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Revenue recognition; ASC 606; performance obligations",
+      "gold_facts": [
+        "Revenue recognition",
+        "ASC 606",
+        "performance obligations"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 33,
+      "_field": "Accounting",
+      "_topic": "revenue recognition",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q034",
+      "task_text": "Using the local auditing corpus, what specific metrics and operational features are reported for audit sampling?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Audit sampling; statistical sampling; tolerable misstatement",
+      "gold_facts": [
+        "Audit sampling",
+        "statistical sampling",
+        "tolerable misstatement"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 34,
+      "_field": "Auditing",
+      "_topic": "audit sampling",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q134",
+      "task_text": "Compare conventional and advanced methods for managing audit sampling in auditing using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Audit sampling; statistical sampling; tolerable misstatement",
+      "gold_facts": [
+        "Audit sampling",
+        "statistical sampling",
+        "tolerable misstatement"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 34,
+      "_field": "Auditing",
+      "_topic": "audit sampling",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q234",
+      "task_text": "Design an evidence-based operational strategy for audit sampling in auditing under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Audit sampling; statistical sampling; tolerable misstatement",
+      "gold_facts": [
+        "Audit sampling",
+        "statistical sampling",
+        "tolerable misstatement"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 34,
+      "_field": "Auditing",
+      "_topic": "audit sampling",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q036",
+      "task_text": "Using the local blockchain corpus, what specific metrics and operational features are reported for smart contracts?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Smart contracts; distributed ledgers; cryptographic verification",
+      "gold_facts": [
+        "Smart contracts",
+        "distributed ledgers",
+        "cryptographic verification"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 36,
+      "_field": "Blockchain",
+      "_topic": "smart contracts",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q136",
+      "task_text": "Compare conventional and advanced methods for managing smart contracts in blockchain using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Smart contracts; distributed ledgers; cryptographic verification",
+      "gold_facts": [
+        "Smart contracts",
+        "distributed ledgers",
+        "cryptographic verification"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 36,
+      "_field": "Blockchain",
+      "_topic": "smart contracts",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q236",
+      "task_text": "Design an evidence-based operational strategy for smart contracts in blockchain under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Smart contracts; distributed ledgers; cryptographic verification",
+      "gold_facts": [
+        "Smart contracts",
+        "distributed ledgers",
+        "cryptographic verification"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 36,
+      "_field": "Blockchain",
+      "_topic": "smart contracts",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q037",
+      "task_text": "Using the local economics corpus, what specific metrics and operational features are reported for inflation?",
+      "evaluation_type": "rubric",
+      "expected_answer": "consumer price index; demand-pull inflation; cost-push",
+      "gold_facts": [
+        "consumer price index",
+        "demand-pull inflation",
+        "cost-push"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 37,
+      "_field": "Economics",
+      "_topic": "inflation",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q137",
+      "task_text": "Compare conventional and advanced methods for managing inflation in economics using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "consumer price index; demand-pull inflation; cost-push",
+      "gold_facts": [
+        "consumer price index",
+        "demand-pull inflation",
+        "cost-push"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 37,
+      "_field": "Economics",
+      "_topic": "inflation",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q237",
+      "task_text": "Design an evidence-based operational strategy for inflation in economics under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "consumer price index; demand-pull inflation; cost-push",
+      "gold_facts": [
+        "consumer price index",
+        "demand-pull inflation",
+        "cost-push"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 37,
+      "_field": "Economics",
+      "_topic": "inflation",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q038",
+      "task_text": "Using the local macroeconomic policy corpus, what specific metrics and operational features are reported for interest rates?",
+      "evaluation_type": "rubric",
+      "expected_answer": "interest rates; borrowing costs; exchange rates",
+      "gold_facts": [
+        "interest rates",
+        "borrowing costs",
+        "exchange rates"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 38,
+      "_field": "Macroeconomic policy",
+      "_topic": "interest rates",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q138",
+      "task_text": "Compare conventional and advanced methods for managing interest rates in macroeconomic policy using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "interest rates; borrowing costs; exchange rates",
+      "gold_facts": [
+        "interest rates",
+        "borrowing costs",
+        "exchange rates"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 38,
+      "_field": "Macroeconomic policy",
+      "_topic": "interest rates",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q238",
+      "task_text": "Design an evidence-based operational strategy for interest rates in macroeconomic policy under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "interest rates; borrowing costs; exchange rates",
+      "gold_facts": [
+        "interest rates",
+        "borrowing costs",
+        "exchange rates"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 38,
+      "_field": "Macroeconomic policy",
+      "_topic": "interest rates",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q039",
+      "task_text": "Using the local development economics corpus, what specific metrics and operational features are reported for microfinance?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Microfinance; microloans; group lending",
+      "gold_facts": [
+        "Microfinance",
+        "microloans",
+        "group lending"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 39,
+      "_field": "Development economics",
+      "_topic": "microfinance",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q139",
+      "task_text": "Compare conventional and advanced methods for managing microfinance in development economics using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Microfinance; microloans; group lending",
+      "gold_facts": [
+        "Microfinance",
+        "microloans",
+        "group lending"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 39,
+      "_field": "Development economics",
+      "_topic": "microfinance",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q239",
+      "task_text": "Design an evidence-based operational strategy for microfinance in development economics under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Microfinance; microloans; group lending",
+      "gold_facts": [
+        "Microfinance",
+        "microloans",
+        "group lending"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 39,
+      "_field": "Development economics",
+      "_topic": "microfinance",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q040",
+      "task_text": "Using the local environmental science corpus, what specific metrics and operational features are reported for air pollution?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Air pollution; fine particulate matter; PM2.5",
+      "gold_facts": [
+        "Air pollution",
+        "fine particulate matter",
+        "PM2.5"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 40,
+      "_field": "Environmental science",
+      "_topic": "air pollution",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q140",
+      "task_text": "Compare conventional and advanced methods for managing air pollution in environmental science using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Air pollution; fine particulate matter; PM2.5",
+      "gold_facts": [
+        "Air pollution",
+        "fine particulate matter",
+        "PM2.5"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 40,
+      "_field": "Environmental science",
+      "_topic": "air pollution",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q240",
+      "task_text": "Design an evidence-based operational strategy for air pollution in environmental science under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Air pollution; fine particulate matter; PM2.5",
+      "gold_facts": [
+        "Air pollution",
+        "fine particulate matter",
+        "PM2.5"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 40,
+      "_field": "Environmental science",
+      "_topic": "air pollution",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q041",
+      "task_text": "Using the local climate science corpus, what specific metrics and operational features are reported for carbon budgets?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Carbon budgets; CO2 emissions; 1.5°C",
+      "gold_facts": [
+        "Carbon budgets",
+        "CO2 emissions",
+        "1.5°C"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 41,
+      "_field": "Climate science",
+      "_topic": "carbon budgets",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q141",
+      "task_text": "Compare conventional and advanced methods for managing carbon budgets in climate science using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Carbon budgets; CO2 emissions; 1.5°C",
+      "gold_facts": [
+        "Carbon budgets",
+        "CO2 emissions",
+        "1.5°C"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 41,
+      "_field": "Climate science",
+      "_topic": "carbon budgets",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q241",
+      "task_text": "Design an evidence-based operational strategy for carbon budgets in climate science under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Carbon budgets; CO2 emissions; 1.5°C",
+      "gold_facts": [
+        "Carbon budgets",
+        "CO2 emissions",
+        "1.5°C"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 41,
+      "_field": "Climate science",
+      "_topic": "carbon budgets",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q042",
+      "task_text": "Using the local water utilities corpus, what specific metrics and operational features are reported for non-revenue water?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Non-revenue water; distribution pipe leaks; commercial theft",
+      "gold_facts": [
+        "Non-revenue water",
+        "distribution pipe leaks",
+        "commercial theft"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 42,
+      "_field": "Water utilities",
+      "_topic": "non-revenue water",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q142",
+      "task_text": "Compare conventional and advanced methods for managing non-revenue water in water utilities using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Non-revenue water; distribution pipe leaks; commercial theft",
+      "gold_facts": [
+        "Non-revenue water",
+        "distribution pipe leaks",
+        "commercial theft"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 42,
+      "_field": "Water utilities",
+      "_topic": "non-revenue water",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q242",
+      "task_text": "Design an evidence-based operational strategy for non-revenue water in water utilities under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Non-revenue water; distribution pipe leaks; commercial theft",
+      "gold_facts": [
+        "Non-revenue water",
+        "distribution pipe leaks",
+        "commercial theft"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 42,
+      "_field": "Water utilities",
+      "_topic": "non-revenue water",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q043",
+      "task_text": "Using the local waste management corpus, what specific metrics and operational features are reported for recycling systems?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Recycling systems; single-stream; source-separated",
+      "gold_facts": [
+        "Recycling systems",
+        "single-stream",
+        "source-separated"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 43,
+      "_field": "Waste management",
+      "_topic": "recycling systems",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q143",
+      "task_text": "Compare conventional and advanced methods for managing recycling systems in waste management using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Recycling systems; single-stream; source-separated",
+      "gold_facts": [
+        "Recycling systems",
+        "single-stream",
+        "source-separated"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 43,
+      "_field": "Waste management",
+      "_topic": "recycling systems",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q243",
+      "task_text": "Design an evidence-based operational strategy for recycling systems in waste management under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Recycling systems; single-stream; source-separated",
+      "gold_facts": [
+        "Recycling systems",
+        "single-stream",
+        "source-separated"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 43,
+      "_field": "Waste management",
+      "_topic": "recycling systems",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q045",
+      "task_text": "Using the local metallurgy corpus, what specific metrics and operational features are reported for heat treatment?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Heat treatment; quenching; tempering",
+      "gold_facts": [
+        "Heat treatment",
+        "quenching",
+        "tempering"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 45,
+      "_field": "Metallurgy",
+      "_topic": "heat treatment",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q145",
+      "task_text": "Compare conventional and advanced methods for managing heat treatment in metallurgy using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Heat treatment; quenching; tempering",
+      "gold_facts": [
+        "Heat treatment",
+        "quenching",
+        "tempering"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 45,
+      "_field": "Metallurgy",
+      "_topic": "heat treatment",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q245",
+      "task_text": "Design an evidence-based operational strategy for heat treatment in metallurgy under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Heat treatment; quenching; tempering",
+      "gold_facts": [
+        "Heat treatment",
+        "quenching",
+        "tempering"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 45,
+      "_field": "Metallurgy",
+      "_topic": "heat treatment",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q047",
+      "task_text": "Using the local textiles corpus, what specific metrics and operational features are reported for sustainable dyeing?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Sustainable dyeing; waterless dyeing; toxic wastewater",
+      "gold_facts": [
+        "Sustainable dyeing",
+        "waterless dyeing",
+        "toxic wastewater"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 47,
+      "_field": "Textiles",
+      "_topic": "sustainable dyeing",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q147",
+      "task_text": "Compare conventional and advanced methods for managing sustainable dyeing in textiles using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Sustainable dyeing; waterless dyeing; toxic wastewater",
+      "gold_facts": [
+        "Sustainable dyeing",
+        "waterless dyeing",
+        "toxic wastewater"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 47,
+      "_field": "Textiles",
+      "_topic": "sustainable dyeing",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q247",
+      "task_text": "Design an evidence-based operational strategy for sustainable dyeing in textiles under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Sustainable dyeing; waterless dyeing; toxic wastewater",
+      "gold_facts": [
+        "Sustainable dyeing",
+        "waterless dyeing",
+        "toxic wastewater"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 47,
+      "_field": "Textiles",
+      "_topic": "sustainable dyeing",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q048",
+      "task_text": "Using the local fashion corpus, what specific metrics and operational features are reported for circular economy?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Circular fashion; textile-to-textile recycling; closed-loop",
+      "gold_facts": [
+        "Circular fashion",
+        "textile-to-textile recycling",
+        "closed-loop"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 48,
+      "_field": "Fashion",
+      "_topic": "circular economy",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q148",
+      "task_text": "Compare conventional and advanced methods for managing circular economy in fashion using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Circular fashion; textile-to-textile recycling; closed-loop",
+      "gold_facts": [
+        "Circular fashion",
+        "textile-to-textile recycling",
+        "closed-loop"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 48,
+      "_field": "Fashion",
+      "_topic": "circular economy",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q248",
+      "task_text": "Design an evidence-based operational strategy for circular economy in fashion under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Circular fashion; textile-to-textile recycling; closed-loop",
+      "gold_facts": [
+        "Circular fashion",
+        "textile-to-textile recycling",
+        "closed-loop"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 48,
+      "_field": "Fashion",
+      "_topic": "circular economy",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q049",
+      "task_text": "Using the local media corpus, what specific metrics and operational features are reported for recommendation algorithms?",
+      "evaluation_type": "rubric",
+      "expected_answer": "recommendation algorithms; algorithmic feed; misinformation",
+      "gold_facts": [
+        "recommendation algorithms",
+        "algorithmic feed",
+        "misinformation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 49,
+      "_field": "Media",
+      "_topic": "recommendation algorithms",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q149",
+      "task_text": "Compare conventional and advanced methods for managing recommendation algorithms in media using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "recommendation algorithms; algorithmic feed; misinformation",
+      "gold_facts": [
+        "recommendation algorithms",
+        "algorithmic feed",
+        "misinformation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 49,
+      "_field": "Media",
+      "_topic": "recommendation algorithms",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q249",
+      "task_text": "Design an evidence-based operational strategy for recommendation algorithms in media under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "recommendation algorithms; algorithmic feed; misinformation",
+      "gold_facts": [
+        "recommendation algorithms",
+        "algorithmic feed",
+        "misinformation"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 49,
+      "_field": "Media",
+      "_topic": "recommendation algorithms",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    },
+    {
+      "task_id": "Q050",
+      "task_text": "Using the local journalism corpus, what specific metrics and operational features are reported for source verification?",
+      "evaluation_type": "rubric",
+      "expected_answer": "Source verification; investigative journalism; eyewitness credibility",
+      "gold_facts": [
+        "Source verification",
+        "investigative journalism",
+        "eyewitness credibility"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 1.5,
+        "n_evidence_sources": 1.0,
+        "dependency_depth": 0.0,
+        "verification_required": 0.0,
+        "synthesis_required": 0.0
+      },
+      "complexity_score": 2.5,
+      "complexity_tier": 1,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 50,
+      "_field": "Journalism",
+      "_topic": "source verification",
+      "_safety_tag": "General",
+      "_declared_tier": 1
+    },
+    {
+      "task_id": "Q150",
+      "task_text": "Compare conventional and advanced methods for managing source verification in journalism using cost, performance, and risk criteria.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Source verification; investigative journalism; eyewitness credibility",
+      "gold_facts": [
+        "Source verification",
+        "investigative journalism",
+        "eyewitness credibility"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 4.0,
+        "n_evidence_sources": 2.5,
+        "dependency_depth": 1.0,
+        "verification_required": 0.5,
+        "synthesis_required": 0.5
+      },
+      "complexity_score": 10.0,
+      "complexity_tier": 2,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 50,
+      "_field": "Journalism",
+      "_topic": "source verification",
+      "_safety_tag": "General",
+      "_declared_tier": 2
+    },
+    {
+      "task_id": "Q250",
+      "task_text": "Design an evidence-based operational strategy for source verification in journalism under conflicting constraints and resource limitations.",
+      "evaluation_type": "rubric",
+      "expected_answer": "Source verification; investigative journalism; eyewitness credibility",
+      "gold_facts": [
+        "Source verification",
+        "investigative journalism",
+        "eyewitness credibility"
+      ],
+      "required_tools": [
+        "search_corpus",
+        "lookup_document",
+        "calculator"
+      ],
+      "complexity_factors": {
+        "n_tool_calls": 6.0,
+        "n_evidence_sources": 3.0,
+        "dependency_depth": 2.0,
+        "verification_required": 1.0,
+        "synthesis_required": 1.0
+      },
+      "complexity_score": 16.0,
+      "complexity_tier": 3,
+      "provenance": "constructed",
+      "human_verified": true,
+      "_pair_id": 50,
+      "_field": "Journalism",
+      "_topic": "source verification",
+      "_safety_tag": "General",
+      "_declared_tier": 3
+    }
+  ]
+}

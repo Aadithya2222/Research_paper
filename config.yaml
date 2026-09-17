@@ -1,0 +1,170 @@
+# =====================================================================
+# Coordination Tax Benchmark -- central configuration
+#
+# EVERY tunable value lives here. Nothing is hardcoded in Python.
+# Values marked  # PREREGISTER  must be frozen (and committed to git)
+# BEFORE the main experimental run. Changing them afterwards
+# invalidates the pre-registration.
+# =====================================================================
+
+model:
+  # The agent backbone. Identical for conditions A, B, C, D.
+  name: "llama3.1:8b"
+  quantization: "Q4_0"         # documentation only; encoded in the Ollama tag
+  temperature: 0.0              # PREREGISTER  (0.0 = deterministic main run)
+  top_p: 1.0
+  seed: 42                      # PREREGISTER
+  max_output_tokens: 1024
+  num_ctx: 8192                 # PREREGISTER  identical across all conditions
+  host: "http://localhost:11434"
+  request_timeout_seconds: 300
+
+judge:
+  # MUST be a different model family from `model` to avoid self-preference
+  # bias. validation/checks.py raises if judge.name == model.name.
+  enabled: true
+  name: "phi3:latest"
+  temperature: 0.0
+  seed: 42
+  max_output_tokens: 512
+  host: "http://localhost:11434"
+  request_timeout_seconds: 300
+  # Pairwise judging runs each comparison twice with sides swapped.
+  # Position-inconsistent verdicts are recorded as ties.
+  position_swap: true
+
+experiment:
+  runs_per_task: 1              # main run; stochasticity substudy uses 3
+  timeout_seconds: 600          # per task, per condition
+  retry_limit: 2                # retries ARE counted in tokens/calls/latency
+  max_iterations: 8             # ReAct loop cap  PREREGISTER
+  resource_sample_hz: 5
+  output_directory: "results"
+  fail_fast: false              # false => record failure and continue
+
+# ---------------------------------------------------------------------
+# Compute matching (Condition B).
+#
+# Two-phase and directional BY DESIGN:
+#   phase 1: run Condition D, write results/processed/compute_budget.json
+#            (contains ONLY cost fields -- no quality fields at all)
+#   phase 2: run Condition B, which reads that budget to pick N
+#
+# Condition B cannot see D's quality, so N cannot be chosen to favour
+# either side. Selection/judge cost is inside the budget.
+# ---------------------------------------------------------------------
+compute_matching:
+  token_tolerance_percent: 10.0   # PREREGISTER  (tau in the paper)
+  call_tolerance: 1               # absolute LLM-call slack
+  include_input_tokens: true
+  include_output_tokens: true
+  include_judge_cost: true        # selection cost counted against budget
+  include_retries: true
+  min_n: 1
+  max_n: 5
+  # Selection rule, FIXED PER TASK TYPE IN ADVANCE (never post hoc).
+  selection_rule:
+    exact_match: "self_consistency"   # majority vote over normalised answers
+    rubric: "judge_best_of"           # judge picks best; cost counted
+    default: "judge_best_of"
+
+# ---------------------------------------------------------------------
+# Complexity scoring, Eq. (1) of the paper:
+#   C = w1*f1 + w2*f2 + w3*f3 + w4*f4 + w5*f5
+# ---------------------------------------------------------------------
+complexity:
+  weights:                      # PREREGISTER
+    n_tool_calls: 1.0           # f1
+    n_evidence_sources: 1.0     # f2
+    dependency_depth: 1.5       # f3
+    verification_required: 2.0  # f4  (0/1)
+    synthesis_required: 2.0     # f5  (0/1)
+  tier_cutpoints:               # PREREGISTER
+    tier1_max: 6.25             # C <= 6.25 (Easy tier = 2.5)
+    tier2_max: 13.0             # 6.25 < C <= 13.0 (Medium tier = 10.0) ; C > 13.0 => tier 3 (Hard tier = 16.0)
+
+# ---------------------------------------------------------------------
+# Role charter. Inserted VERBATIM into conditions C and D.
+# The single-agent conditions (A, B) receive the UNION of all three,
+# so architecture is not confounded with instruction content.
+# ---------------------------------------------------------------------
+roles:
+  planner:
+    goal: "Break the task into an explicit, ordered list of concrete steps."
+    charter: |
+      You are the PLANNER. Your ONLY job is to produce a numbered plan.
+      You MUST NOT call tools. You MUST NOT attempt to answer the task.
+      You MUST NOT write prose beyond the plan.
+      Output ONLY a numbered list of 2-8 concrete steps.
+  researcher:
+    goal: "Execute the plan by gathering evidence with the available tools."
+    charter: |
+      You are the RESEARCHER. Your ONLY job is to gather evidence by
+      calling tools and to report the raw findings.
+      You MUST NOT write the final polished answer.
+      You MUST NOT re-plan the task.
+      Report findings as short bullet points with the tool output you relied on.
+  writer:
+    goal: "Compose the final answer from the researcher's findings."
+    charter: |
+      You are the WRITER. Your ONLY job is to compose the final answer
+      from the findings you were given.
+      You MUST NOT call tools. You MUST NOT gather new evidence.
+      If the findings are insufficient, say so explicitly rather than
+      inventing information.
+      End your reply with a line of the form: FINAL ANSWER: <answer>
+
+tools:
+  # Deterministic LOCAL tools only. External APIs would make the
+  # benchmark irreproducible and would inject network variance into
+  # the latency measurements.
+  enabled:
+    - "calculator"
+    - "search_corpus"
+    - "lookup_document"
+  corpus_path: "tasks/corpus.json"
+
+evaluation:
+  quality_metrics:
+    - "exact_match"
+    - "gold_fact_coverage"
+    - "judge_rubric"
+  rfs:
+    enabled: true
+    # NOT claimed as a novel metric. A lightweight proxy that must be
+    # validated against an established role-adherence instrument
+    # before any metric-level claim is made.
+    scale_max: 4
+    validate_against_cras: true
+  failure_types:
+    - "planner_failure"
+    - "researcher_failure"
+    - "handoff_failure"
+    - "writer_failure"
+    - "tool_failure"
+    - "timeout"
+    - "framework_error"
+    - "model_error"
+    - "evaluation_error"
+    - "unknown"
+
+statistics:
+  alpha: 0.05
+  n_bootstrap: 2000             # PREREGISTER
+  primary_hypotheses: ["H1", "H2", "H3"]
+  primary_correction: "holm"
+  exploratory_correction: "fdr_bh"
+  minimal_important_difference:
+    quality_points: 0.05        # PREREGISTER  (5 percentage points)
+    cost_ratio: 1.5             # PREREGISTER
+
+logging:
+  level: "INFO"
+  raw_directory: "results/raw"
+  console: true
+
+
+# Added by shard_tasks.py -- do not edit
+machine:
+  id: 1
+  of: 4

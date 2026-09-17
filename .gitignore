@@ -1,0 +1,31 @@
+# Environments and bytecode
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Experimental data and runs (Mendeley deposit targets)
+results/
+results_smoke/
+results_dryrun/
+results_diag/
+results_verify/
+mendeley_deposit/
+mendeley_deposit1/
+RERUN_DB/
+
+# Run archives and machine artifacts
+SEND_BACK_*.zip
+.rerun_state.json
+
+# Local shard files & tasks (Data belongs to Mendeley / reproduction inputs)
+tasks/tasks.json
+tasks/corpus.json
+my_tasks.json
+calibration_tasks.json
+
+# Local scripts & batch files
+*.bat
+START_HERE.txt
+scratch/
+
