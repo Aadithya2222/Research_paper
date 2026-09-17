@@ -1,0 +1,21 @@
+# Core (required)
+pyyaml>=6.0
+requests>=2.31
+psutil>=5.9
+numpy>=1.24
+
+# Statistics (required for p-values, CIs, mixed models)
+scipy>=1.11
+pandas>=2.0
+statsmodels>=0.14
+
+# Figures
+matplotlib>=3.7
+
+# Agent frameworks
+langgraph>=0.2.0
+langchain-core>=0.3.0
+crewai>=0.60.0
+
+# Tests
+pytest>=7.4
